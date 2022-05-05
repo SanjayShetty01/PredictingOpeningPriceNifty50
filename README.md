@@ -5,7 +5,7 @@
 ### Introduction
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-One of the interesting and most abundantly found data can be from the stock market. Moreover, it could also be financially lucrative, as a strong-predictive model with phenomenal output could result in one owning a 'money printing machine'. The two datasets used for building the model was available online, which is linked below. One of the datasets consists of minute by minute information of the Nifty50  index price from 2012 to 2018. The other data contains the news headlines from [Pulse](https://pulse.zerodha.com/), a financial news aggregator from [Zerodha](https://zerodha.com/). 
+One of the interesting and most abundantly found data can be from the stock market. Moreover, it could also be financially lucrative, as a strong-predictive model with phenomenal output could result in one owning a 'money printing machine'. The NewsHeadlines data contains the news headlines from [Pulse](https://pulse.zerodha.com/), a financial news aggregator from [Zerodha](https://zerodha.com/). 
 
 
 
@@ -13,7 +13,16 @@ One of the interesting and most abundantly found data can be from the stock mark
 
 [News Headline Data](https://pulse.zerodha.com/pulse-news-dump.zip) 
 
-[Nifty50 Data](https://www.dropbox.com/s/pn4qkjk7qidy7aj/Intraday%201%20Min%20Data.zip?dl=0)
+The required Index price is pulled from `yfinance` library.
+
+So, which stock Index are interest in?
+1. Nifty 50 (Obsiously)
+	Nifty 50 is the benchmark Index used to gauge the National Stock Exchange (NSE). The index consist of 50 Indian listed stocks in the National Stock Exchange.  
+
+2. S And P 500 Index
+	
+3. Nikkie 225 Index
+
 
 <p>&nbsp;</p>
 	
@@ -24,10 +33,15 @@ One of the interesting and most abundantly found data can be from the stock mark
 
 ### Procedure:
 
-1) Getting the Data
-2) Cleaning the Data
-3) Exploratory Analysis
-4) Fitting the models
+1) Getting the Data.
+2) Cleaning the Data.
+3) Exploratory Analysis.
+4) Fitting the Models.
+5) Deploying the Model in AWS Lambda. 
+
+#### 1. Getting the Data
+
+
 
 
 
