@@ -13,23 +13,23 @@ One of the interesting and most abundantly found data can be from the stock mark
 
 [News Headline Data](https://pulse.zerodha.com/pulse-news-dump.zip) 
 
-The required Index price is pulled from `yfinance` library.
-
-So, which stock Index are interest in?
-1. Nifty 50 (Obsiously)
-	Nifty 50 is the benchmark Index used to gauge the National Stock Exchange (NSE). The index consist of 50 Indian listed stocks in the National Stock Exchange.  
-
-2. S And P 500 Index
-	
-3. Nikkie 225 Index
+The required Index price is pulled from [`yfinance library`](https://pypi.org/project/yfinance/).
 
 
 <p>&nbsp;</p>
 	
 ### More on the Datasets:
 	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The News Headlines Dataset contains the headlines, Links and the date and time on when it was published. The Nifty Dataset contains the Open, High, Low and Close price of the NIFTY every minute.The News headline timeline starts from 2014 and goes on till 2017. but also contain outlier dates, especially from the year 1970. The stock data even though available from 2012 to 2018. Since the News data stretches from 2014 to 2017, we'd keep the years 2014 to 2017. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The News Headlines Dataset contains the headlines, links and the date and time when it was published. The News headline timeline starts from 2014 and goes on till 2017. but also contain outlier dates, especially from the year 1970. Now coming to stock prices, we would be using `yfinance` module for pulling stock prices. `yfinance` is an API wrapper of yahoo finance, which can be used to pull the necessary data. Since the News data stretches from 2014 to 2017, we'd keep the years 2014 to 2017. 
 
+So, which stock Index are interest in?
+1. Nifty 50 (Obsiously):
+	Nifty 50 is the benchmark Index used to gauge the National Stock Exchange (NSE). The index consist of 50 Indian listed stocks in the National Stock Exchange.  
+
+2. S&P 500 Index:
+	S&P 500 is the benchmark Index used to gauge the major US stock exchanges (NASDAQ and NYSE).
+	
+3. Nikkie 225 Index
 
 ### Procedure:
 
