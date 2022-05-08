@@ -33,13 +33,12 @@ So, which stock Index are interest in?
 
 ### Procedure:
 
-1) Getting the Data.
-2) Cleaning the Data.
-3) Exploratory Analysis.
-4) Fitting the Models.
-5) Deploying the Model in AWS Lambda. 
+1) Getting and Cleaning the Data.
+2) Exploratory Analysis.
+3) Fitting the Models.
+4) Deploying the Model in AWS Lambda. 
 
-#### 1. Getting the Data.
+#### 1. Getting and Cleaning the Data.
 
 The News Headline was in the CSV file format, where the Nifty50 Data was in txt format and spread across various folders according to their year. The stock 
       
