@@ -23,7 +23,7 @@ The required Index price is pulled from [`yfinance library`](https://pypi.org/pr
 
 So, which stock Index are interest in?
 1. Nifty 50 (Obsiously):
-	Nifty 50 is the benchmark Index used to gauge the National Stock Exchange (NSE). The index consist of 50 Indian listed stocks in the National Stock Exchange.  
+	Nifty 50 is the benchmark Index used to gauge the National Stock Exchange (NSE). The index consist of 50 Indian listed stocks accounting to 13 important sectors in the National Stock Exchange.  
 
 2. S&P 500 Index:
 	S&P 500 is the benchmark Index used to gauge the major US stock exchanges (NASDAQ and NYSE). The Index doesn't have a strict criteria and any inclusion is based on the selection by a committe  S&P Dow Jones Indices. Th committe would assesses the company's merit using eight important critiera i.e Market Capitalzation, Public Float, role of the industry in the economy of the US, Financial Strength, Duration of time in the public market, domicile, liquidity and stock exchange. The Index contains 500 companies. 
