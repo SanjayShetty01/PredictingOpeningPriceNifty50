@@ -40,9 +40,16 @@ So, which stock Index are interest in?
 
 #### 1. Getting and Cleaning the Data.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The News Headline was in the CSV file format, where the Nifty50 Data was in txt format and spread across various folders according to their year. The stock 
-      
+The required news headlines data is download from the above website and loaded for cleaning. The News data consisted of fewer data misplacement. Very few of 'Date_Time' consisted of the links or the News headlines. Cleaning of the same is done in the `put the script here` script. 
 
+As mentioned earlier, we would be using `yfinance` to load all the required stock prices. So what are the data that interest us?
+Before we look into the required data, let's talk about what we would require to build the model. It would be needing the move the US market, the Japanese market and the Indian Market.
+
+So, the data we use for our analysis. 
+
+1.  Closing prices of S&P 500.
+2.  Open & Close of Nikkie 225
+3.  Open & Close of NIFTY 50
 
 
 
