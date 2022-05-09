@@ -1,4 +1,4 @@
-## Predicting the Opening pirce of Nifty 50.
+## Predicting the Opening price of Nifty 50.
 
 <p>&nbsp;</p>
 
