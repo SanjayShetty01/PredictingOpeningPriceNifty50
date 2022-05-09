@@ -40,7 +40,7 @@ So, which stock Index are interest in?
 
 #### 1. Getting and Cleaning the Data.
 
-	The News Headline was in the CSV file format, where the Nifty50 Data was in txt format and spread across various folders according to their year. The stock 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The News Headline was in the CSV file format, where the Nifty50 Data was in txt format and spread across various folders according to their year. The stock 
       
 
 
