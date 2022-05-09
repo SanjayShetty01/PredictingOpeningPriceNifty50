@@ -34,9 +34,10 @@ So, which stock Index are interest in?
 ### Procedure:
 
 1) Getting and Cleaning the Data.
-2) Exploratory Analysis.
-3) Fitting the Models.
-4) Deploying the Model in AWS Lambda. 
+2) Pre-Processing the Data
+3) Exploratory Analysis.
+4) Fitting the Models.
+5) Deploying the Model in AWS Lambda. 
 
 #### 1. Getting and Cleaning the Data.
 
@@ -50,6 +51,8 @@ So, the data we use for our analysis.
 1.  Closing prices of S&P 500.
 2.  Open & Close of Nikkie 225.
 3.  Open & Close of NIFTY 50.
+
+#### 2. Pre-Processing the Data
 
 
 
