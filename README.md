@@ -62,7 +62,9 @@ The formula for compound:
 
 With the sentiment scores figured out, we would now move to add weights to the score. Now why would be interested in adding? And how would we be assigning weights for the same?
 
+Let us start with the latter question, the weights were assigned based on the published time of the particular news headline. Now coming back on the why we are doing so?
 
+The weights for the news headline were based on the published time.  
 
 
 
