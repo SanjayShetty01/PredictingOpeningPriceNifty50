@@ -64,8 +64,7 @@ With the sentiment scores figured out, we would now move to add weights to the s
 
 Let us start with the latter question, the weights were assigned based on the published time of the particular news headline. Now coming back on the why we are doing so?
 
-The weights for the news headline were based on the published time.  
-
+The rationale behind assigning weights to news or a piece of new information is an assumption that any news published before the opening of the market would be scrutinized and analysed in a manner that panic initially created by the news would subside. Thereby nullifying the absolute effect on the market open. Hence to capture such actions, it would be benificial to use weights. 
 
 
 
