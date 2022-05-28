@@ -67,7 +67,7 @@ Let us start with the latter question, the weights were assigned based on the pu
 The rationale behind assigning weights to News or a piece of new information is an assumption that any News published way before the market opens would be scrutinized and analyzed in a manner that the panic initially created by the News would subside. Thereby nullifying the absolute effect on the market open. Hence to capture such actions, it would be beneficial to use weights.  
 
 
-
+The data provided by the yfinace has no issues. Therefore we could safely assume that the data provided is accurate. But we shall be removing some columns, which render useless to our analysis. After removing the unnecessary, we could proceed to process our data as per the model requirement.
 
 
 
