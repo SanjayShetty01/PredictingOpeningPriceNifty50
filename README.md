@@ -87,6 +87,19 @@ INDIA AND JAPAN: AN EMPIRICAL STUDY](https://www.srcc.edu/system/files/TESTING.p
 	
 So we have fitted and choosen a model. Hence we move to deploying the model. We could connect the model with the Broker API, make a trading bot and live test the performance. But since the broker APIs are kind of expensive. We would deploy model in the cloud and live test the performance. To accomplish the same, We would need a program that would extract the required finance data from Yahoo Finance and the News data from the News API. The data would pass through the model, and the output from the model would store the result in the .csv file. 
 
+How can we come about doing the same?
+- We can set up a cronjob in our local machine.
+- We can schedule a Github Workflow Action. 
+- We can use a Cloud Service.
+
+I’ll be choosing the cloud service (AWS) over the other choices because I would like to familiarize myself with Cloud Computing. 	
 	
-	
+### How are we going to deploy the same in AWS?
+Since the current application (model) needs to run at just a specific time of the day. Hence we could use AWS Lambda (write about AWS Lambda stuff).
+ 
+But AWS lambda has some cons with respect to our project: 
+
+1. Lambda function requires an additional package (Other than the default packages provided by python 3.9).
+
+2. The lambda function needs internet connectivity.	
 	
