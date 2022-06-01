@@ -74,6 +74,16 @@ The US markets usually decides the tempo for the rest of the financial markets a
 And coming to the Nikkie 225, the Japanese market also influences the Indian market. (due to a presence of co-integration and co-movement) [TESTING FINANCIAL INTEGRATION BETWEEN STOCK MARKET OF
 INDIA AND JAPAN: AN EMPIRICAL STUDY](https://www.srcc.edu/system/files/TESTING.pdf)
 
+- `USMove`: Stores the S&P500 closing price difference.
+
+- `JapanGap`: Stores the difference between the previous day closing price and the Opening prices. 
 
 
+#### 3) Exploratory Analysis.
+#### 4) Fitting the Models.	
+	
+	
+#### 5) Deploying the Model in AWS Lambda. 
+	
 
+	
