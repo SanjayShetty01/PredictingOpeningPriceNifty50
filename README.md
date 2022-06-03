@@ -103,3 +103,19 @@ But AWS lambda has some cons with respect to our project:
 
 2. The lambda function needs internet connectivity.	
 	
+
+##### How can we solve the package issue?
+There are many ways to install external packages in the lambda function,
+
+We bundle the whole code and packages in a zip file and upload it to the lambda function.
+We run the pip install code in our code and provide the host machines temp file as a path to install the packages. 
+We could upload the packages as Layers in AWS Lambda. 
+We can use the EFS file system to store the packages and mount the same to our lambda function.
+
+We would be using the EFS functions, but why?
+The reason for choosing the EFS file system is that the packages required for deploying our model were well over 600 MB. Since the limit for ZIP files and Layers are 250 MB (when unzipped). Running the temp file would also hinder the performance since all the packages need to be downloaded and installed on each run, hence could result in costing more money and time.
+ 
+How do we install the required packages in the EFS file system?
+To access the EFS file system, we need to create a new EC2 instance in AWS (Note: The EFS, lambda function and EC2 should be in the same Security Group and VPN). After creating an EC2 Instance, we need to mount the file system to the EC2 Instance. Now we can download the necessary pip packages into the EC2 Instance. [*How to install library on EFS & import in lambda* - Youtube](https://www.youtube.com/watch?v=FA153BGOV_A&ab_channel=SrceCde)
+	
+	
