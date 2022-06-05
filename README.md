@@ -31,6 +31,14 @@ So, which stock Index are interest in?
 3. Nikkie 225 Index:
 	Nikkie 225 is the Stock index of the Toyko Stock Exchange. The index measures the performance of the top 225 publically traded in the Japanese top stock exchange. 
 
+
+### Assumption of the Model:
+
+1. The news headline would resemble that of a social media post.
+2. The Opening Price of the NIFTY50 Index is highly influenced by the sentiment of the News flow. 
+3. The time of the news would also influence the news.
+4. The US & Japan markets influence the open price of the NIFTY index price.
+
 ### Procedure:
 
 1) Getting and Cleaning the Data.
@@ -118,4 +126,19 @@ The reason for choosing the EFS file system is that the packages required for de
 How do we install the required packages in the EFS file system?
 To access the EFS file system, we need to create a new EC2 instance in AWS (Note: The EFS, lambda function and EC2 should be in the same Security Group and VPN). After creating an EC2 Instance, we need to mount the file system to the EC2 Instance. Now we can download the necessary pip packages into the EC2 Instance. [*How to install library on EFS & import in lambda* - Youtube](https://www.youtube.com/watch?v=FA153BGOV_A&ab_channel=SrceCde)
 	
+
+### Some Drawbacks of the model:
 	
+1. The vaderSentiment module is mainly used to compute and assign the sentiment score for the social media sites like Twitter. Even though a news headline would mimic a tweet, the context of some financial move would not be captured by the vaderSentiment analyser.
+
+<put the example code here>
+
+2. Using news sentimental value to predict the stock price would be considered to be a rookie mistake, especially if we would use options to trade with the predictions. We would be better off predicting the volatility instead of the price. This could also be considered an inherent issue with our model. 
+
+	
+### How could we negate these drawbacks?
+1. As far as Volatity is considerd, we could get premium data provider to extract INDIA VIX data.  
+ 
+2. To deal with the discrepancy in the vaderSentiment module. We could build an algorithm to deal with financial news data using a larger stock index price, preferably 5 min data.
+	
+
