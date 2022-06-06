@@ -83,11 +83,12 @@ INDIA AND JAPAN: AN EMPIRICAL STUDY](https://www.srcc.edu/system/files/TESTING.p
 
 - `USMove`: Stores the S&P500 closing price difference.
 
-- `JapanGap`: Stores the difference between the previous day closing price and the Opening prices. 
+- `JapanGap`: Stores the difference between the previous day closing price and the current days Opening prices. 
 
+- `IndiaGap`: Stores the difference between the previous day closing price and the current days Opening price.
 
 #### 3) Exploratory Analysis.
-	
+
 
 #### 4) Fitting the Models.	
 	
