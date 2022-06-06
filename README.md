@@ -109,15 +109,15 @@ Now let's have a look at how the sentiment of the newsheadlines dataset looks li
 ![Statisonaryplot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index6.png)
 	
 ![relationshipMeanPlot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index8.png)
-	
-![pairPlotwithoutOS](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index9.png)
-	
+		
 ![Corrplot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index10.png)
 
 ![pairPlotOS](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index11.png)
 
 ![featureImp](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index12.png)
-	
+
+![pairPlotOSFImp](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index9.png)
+
 
 #### 4) Fitting the Models.	
 	
