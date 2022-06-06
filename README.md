@@ -89,6 +89,14 @@ INDIA AND JAPAN: AN EMPIRICAL STUDY](https://www.srcc.edu/system/files/TESTING.p
 
 #### 3) Exploratory Analysis.
 
+	
+![newsheadlinescount](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index1.png)	
+	
+The NewsHeadlines dataset seems to have a substantial amount of news headlines after 2014. Hence we would base our study based on those days. 
+
+Now let's have a look at how the sentiment of the newsheadlines dataset looks like, 
+
+![hisOfUnwieghtedSentiplot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index2.png)
 
 #### 4) Fitting the Models.	
 	
