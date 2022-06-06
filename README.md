@@ -144,6 +144,11 @@ Now let's have a look at how the sentiment of the newsheadlines dataset looks li
 
 ![crXGB](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/crxgbHy.png)
 
+##### NN
+
+![cmNN](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/nncm.png)
+
+	
 #### 5) Deploying the Model in AWS Lambda. 
 	
 So we have fitted and choosen a model. Hence we move to deploying the model. We could connect the model with the Broker API, make a trading bot and live test the performance. But since the broker APIs are kind of expensive. We would deploy model in the cloud and live test the performance. To accomplish the same, We would need a program that would extract the required finance data from Yahoo Finance and the News data from the News API. The data would pass through the model, and the output from the model would store the result in the .csv file. 
