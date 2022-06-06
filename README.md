@@ -62,10 +62,9 @@ So, the data we use for our analysis.
 
 #### 2. Pre-Processing the Data
 
-The Headline is passed through the function analzyer_polarity_score() from vaderSentiment moudulues. <put what does it do> The function would return the score in the score in the three columns, i.e. compound, neu(neutral), pos (positive) and neg (negative). 
+The Headline is passed through the function `analzyer_polarity_score()` from vaderSentiment moudulues. <put what does it do> The function would return the score in the score in the three columns, i.e. compound, neu(neutral), pos (positive) and neg (negative). 
 
-The formula for compound:
-
+[More about vaderSentiment](https://github.com/cjhutto/vaderSentiment)
 
 
 With the sentiment scores figured out, we would now move to add weights to the score. Now why would be interested in adding? And how would we be assigning weights for the same?
@@ -88,6 +87,8 @@ INDIA AND JAPAN: AN EMPIRICAL STUDY](https://www.srcc.edu/system/files/TESTING.p
 
 
 #### 3) Exploratory Analysis.
+	
+
 #### 4) Fitting the Models.	
 	
 	
