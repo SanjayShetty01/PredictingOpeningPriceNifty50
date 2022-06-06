@@ -97,6 +97,27 @@ The NewsHeadlines dataset seems to have a substantial amount of news headlines a
 Now let's have a look at how the sentiment of the newsheadlines dataset looks like, 
 
 ![hisOfUnwieghtedSentiplot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index2.png)
+	
+![hisOfwieghtedSentiplot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index3.png)
+
+![summedWights](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index5.png)
+	
+![closingPrice](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index4.png)
+
+![stockHist](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index7.png)
+
+![Statisonaryplot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index6.png)
+	
+![relationshipMeanPlot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index8.png)
+	
+![pairPlotwithoutOS](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index9.png)
+	
+![Corrplot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index10.png)
+
+![pairPlotOS](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index11.png)
+
+![featureImp](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index12.png)
+	
 
 #### 4) Fitting the Models.	
 	
