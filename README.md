@@ -88,7 +88,8 @@ So, the data we use for our analysis.
 
 #### 2. Pre-Processing the Data
 
-The Headline is passed through the function `analzyer_polarity_score()` from vaderSentiment moudulues. <put what does it do> The function would return the score in the score in the three columns, i.e. compound, neu(neutral), pos (positive) and neg (negative). 
+
+The Headline is passed through the function `analzyer_polarity_score()` from vaderSentiment moudulues. <put what does it does here> The function would return the score  in the three columns, i.e. compound, neu(neutral), pos (positive) and neg (negative). 
 
 [More about vaderSentiment](https://github.com/cjhutto/vaderSentiment)
 
