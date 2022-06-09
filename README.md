@@ -3,16 +3,27 @@
 ### Contents:
 
 [Introduction](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#introduction)
+
 [Data Source:](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#data-source)
+
 - [More on the Datasets](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#more-on-the-datasets)
+
 [Assumption of the Model](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#assumption-of-the-model)
+
 [Procedure](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#procedure)
--[Getting and Cleaning the Data](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#1-getting-and-cleaning-the-data)
--[Pre-Processing the Data](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#2-pre-processing-the-data)
--[Exploratory Analysis](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#3-exploratory-analysis)
--[Fitting the Models](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#4-fitting-the-models)
--[Deploying the Model in AWS Lambda](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#5-deploying-the-model-in-aws-lambda)
+
+- [Getting and Cleaning the Data](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#1-getting-and-cleaning-the-data)
+
+- [Pre-Processing the Data](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#2-pre-processing-the-data)
+
+- [Exploratory Analysis](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#3-exploratory-analysis)
+
+- [Fitting the Models](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#4-fitting-the-models)
+
+- [Deploying the Model in AWS Lambda](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#5-deploying-the-model-in-aws-lambda)
+
 [Drawbacks of the model](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#some-drawbacks-of-the-model)
+
 [Diagonsis for the Drawbacks](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#how-could-we-negate-these-drawbacks)
 
 <p>&nbsp;</p>
