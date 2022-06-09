@@ -138,8 +138,11 @@ There’s no high multicollinearity between the features. Hence we would not be 
 
 ![featureImp](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index12.png)
 
+Since the Weekdays has very less influence on the target variable we would be dropping those features. 
+
 ![pairPlotOSFImp](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index9.png)
 
+The relations between the variables seems to be complex rather than being a simple linear model. Hence we would start our model by using complex models. 
 
 	
 ##### KNN
@@ -147,6 +150,7 @@ There’s no high multicollinearity between the features. Hence we would not be 
 ![cmknn](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/cmknnHy.png)
 	
 ![crknn](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/crknnHy.png)
+
 
 ##### DT
 ![cmDT](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/cmDTHy.png)
