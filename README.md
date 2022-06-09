@@ -247,6 +247,9 @@ How do we install the required packages in the EFS file system?
 To access the EFS file system, we need to create a new EC2 instance in AWS (Note: The EFS, lambda function and EC2 should be in the same Security Group and VPN). After creating an EC2 Instance, we need to mount the file system to the EC2 Instance. Now we can download the necessary pip packages into the EC2 Instance. [*How to install library on EFS & import in lambda* - Youtube](https://www.youtube.com/watch?v=FA153BGOV_A&ab_channel=SrceCde)
 	
 
+[How do I give internet access to a Lambda function that's connected to an Amazon VPC? -AWS Support](https://aws.amazon.com/premiumsupport/knowledge-center/internet-access-lambda-function/)
+	
+
 ### Some Drawbacks of the model:
 	
 1. The vaderSentiment module is mainly used to compute and assign the sentiment score for the social media sites like Twitter. Even though a news headline would mimic a tweet, the context of some financial move would not be captured by the vaderSentiment analyser.
