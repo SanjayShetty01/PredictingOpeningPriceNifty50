@@ -120,15 +120,26 @@ Before we use the stock data, we would be removing the outlier values, the ~ -5%
 
 ![relationshipMeanPlot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index8.png)
 
+Let's have a look at the target varibale.
+
+![Target](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/targetIndex.png)
+
+Since there's an imbalance in our target varibale we would be oversampling the minority class.
+
 #### 4) Fitting the Models.	
+	
+Let’s look at corrplot to see if we have any issues with multicollinearity (Assuming $~R^2 > 0.8$). 
 
 ![Corrplot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index10.png)
+
+There’s no high multicollinearity between the features. Hence we would not be dropping any features here.
 
 ![pairPlotOS](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index11.png)
 
 ![featureImp](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index12.png)
 
 ![pairPlotOSFImp](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index9.png)
+
 
 	
 ##### KNN
