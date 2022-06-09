@@ -244,7 +244,11 @@ We would be using the EFS functions, but why?
 The reason for choosing the EFS file system is that the packages required for deploying our model were well over 600 MB. Since the limit for ZIP files and Layers are 250 MB (when unzipped). Running the temp file would also hinder the performance since all the packages need to be downloaded and installed on each run, hence could result in costing more money and time.
  
 How do we install the required packages in the EFS file system?
-To access the EFS file system, we need to create a new EC2 instance in AWS (Note: The EFS, lambda function and EC2 should be in the same Security Group and VPN). After creating an EC2 Instance, we need to mount the file system to the EC2 Instance. Now we can download the necessary pip packages into the EC2 Instance. [*How to install library on EFS & import in lambda* - Youtube](https://www.youtube.com/watch?v=FA153BGOV_A&ab_channel=SrceCde)
+To access the EFS file system, we need to create a new EC2 instance in AWS (Note: The EFS, lambda function and EC2 should be in the same Security Group and VPN). After creating an EC2 Instance, we need to mount the file system to the EC2 Instance. Now we can download the necessary pip packages into the EC2 Instance. 
+
+##### *Check out these tutorial to overcome both Network and Importing external packages issue*
+
+[*How to install library on EFS & import in lambda* - Youtube](https://www.youtube.com/watch?v=FA153BGOV_A&ab_channel=SrceCde)
 	
 
 [How do I give internet access to a Lambda function that's connected to an Amazon VPC? -AWS Support](https://aws.amazon.com/premiumsupport/knowledge-center/internet-access-lambda-function/)
