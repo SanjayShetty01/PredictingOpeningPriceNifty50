@@ -144,7 +144,14 @@ Since the Weekdays has very less influence on the target variable we would be dr
 
 The relations between the variables seems to be complex rather than being a simple linear model. Hence we would start our model by using complex models. 
 
-	
+The models to be employed
+
+-K Nearest Neighour
+-Decision Tree
+-Random Forest
+-XGBoost
+-Neural Networks
+
 ##### KNN
 
 ![cmknn](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/cmknnHy.png)
@@ -173,7 +180,8 @@ The relations between the variables seems to be complex rather than being a simp
 
 ![cmNN](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/nncm.png)
 
-	
+By comparing all the above models, we would pick the KNN model, Since there is no significant improvement in the more complex models. 
+
 #### 5) Deploying the Model in AWS Lambda. 
 	
 So we have fitted and choosen a model. Hence we move to deploying the model. We could connect the model with the Broker API, make a trading bot and live test the performance. But since the broker APIs are kind of expensive. We would deploy model in the cloud and live test the performance. To accomplish the same, We would need a program that would extract the required finance data from Yahoo Finance and the News data from the News API. The data would pass through the model, and the output from the model would store the result in the .csv file. 
