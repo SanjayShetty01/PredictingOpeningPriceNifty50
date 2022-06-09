@@ -152,31 +152,31 @@ The models to be employed
 -XGBoost
 -Neural Networks
 
-##### KNN
+##### 1. KNN
 
 ![cmknn](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/cmknnHy.png)
 	
 ![crknn](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/crknnHy.png)
 
 
-##### DT
+##### 2. DT
 ![cmDT](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/cmDTHy.png)
 
 ![crDT](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/crDTHy.png)
 	
-##### RF
+##### 3. RF
 	
 ![cmRF](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/cmRFHy.png)
 	
 ![crRF](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/crRFHy.png)
 
-##### XGB
+##### 4. XGB
 
 ![cmXGB](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/cmxgbHy.png)
 
 ![crXGB](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/crxgbHy.png)
 
-##### NN
+##### 5. NN
 
 ![cmNN](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/nncm.png)
 
