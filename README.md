@@ -1,5 +1,20 @@
 ## Predicting the Opening price of Nifty 50.
 
+### Contents:
+
+[Introduction](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#introduction)
+[Data Source:](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#data-source)
+- [More on the Datasets](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#more-on-the-datasets)
+[Assumption of the Model](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#assumption-of-the-model)
+[Procedure](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#procedure)
+-[Getting and Cleaning the Data](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#1-getting-and-cleaning-the-data)
+-[Pre-Processing the Data](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#2-pre-processing-the-data)
+-[Exploratory Analysis](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#3-exploratory-analysis)
+-[Fitting the Models](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#4-fitting-the-models)
+-[Deploying the Model in AWS Lambda](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#5-deploying-the-model-in-aws-lambda)
+[Drawbacks of the model](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#some-drawbacks-of-the-model)
+[Diagonsis for the Drawbacks](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50#how-could-we-negate-these-drawbacks)
+
 <p>&nbsp;</p>
 
 ### Introduction
@@ -8,7 +23,7 @@
 
 
 
-### Data Source: 
+#### Data Source: 
 
 [News Headline Data](https://pulse.zerodha.com/pulse-news-dump.zip) 
 
@@ -17,7 +32,7 @@ The required Index price is pulled from [`yfinance library`](https://pypi.org/pr
 
 <p>&nbsp;</p>
 	
-### More on the Datasets:
+##### More on the Datasets:
 	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The NewsHeadlines data contains the news headlines from [Pulse](https://pulse.zerodha.com/), a financial news aggregator from [Zerodha](https://zerodha.com/).  The News Headlines Dataset contains the headlines, links and the date and time when it was published. The News headline timeline starts from 2014 and goes on till 2017. but also contain outlier dates, especially from the year 1970. Now coming to stock prices, we would be using `yfinance` module for pulling stock prices. `yfinance` is an API wrapper of yahoo finance, which can be used to pull the necessary data. Since the News data stretches from 2014 to 2017, we'd keep the years 2014 to 2017. 
 
@@ -146,13 +161,14 @@ The relations between the variables seems to be complex rather than being a simp
 
 The models to be employed
 
--K Nearest Neighour
--Decision Tree
--Random Forest
--XGBoost
--Neural Networks
+1. K Nearest Neighour
+2. Decision Tree
+3. Random Forest
+4. XGBoost
+5. Neural Networks
 
 ##### 1. KNN
+	
 
 ![cmknn](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/cmknnHy.png)
 	
