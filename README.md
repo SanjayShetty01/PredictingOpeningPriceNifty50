@@ -209,6 +209,8 @@ The models to be employed
 
 By comparing all the above models, we would pick the KNN model, Since there is no significant improvement in the more complex models. 
 
+[More on Modelling](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/PredictingOpeningPriceUsingNewsSentimentAndOtherIndex.ipynb)
+
 #### 5) Deploying the Model in AWS Lambda. 
 	
 So we have fitted and choosen a model. Hence we move to deploying the model. We could connect the model with the Broker API, make a trading bot and live test the performance. But since the broker APIs are kind of expensive. We would deploy model in the cloud and live test the performance. To accomplish the same, We would need a program that would extract the required finance data from Yahoo Finance and the News data from the News API. The data would pass through the model, and the output from the model would store the result in the .csv file. 
