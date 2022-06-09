@@ -97,10 +97,18 @@ The NewsHeadlines dataset seems to have a substantial amount of news headlines a
 Now let's have a look at how the sentiment of the newsheadlines dataset looks like, 
 
 ![hisOfUnwieghtedSentiplot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index2.png)
-	
+
+What happens when we add up weights to the sentimental scores.
+
 ![hisOfwieghtedSentiplot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index3.png)
 
+We wil be summing all those up sentmental score for each day. 
 ![summedWights](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index5.png)
+
+After summing up, the data seems to be normally distributed. Hence we would not be doing any transformation further on. 	
+
+Let's move on to Stock prices. 
+	
 	
 ![closingPrice](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index4.png)
 
@@ -108,8 +116,12 @@ Now let's have a look at how the sentiment of the newsheadlines dataset looks li
 
 ![Statisonaryplot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index6.png)
 	
+Before we use the stock data, we would be removing the outlier values, the ~ -5% fall of NIFTY Index would be dropped. 
+
 ![relationshipMeanPlot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index8.png)
-		
+
+#### 4) Fitting the Models.	
+
 ![Corrplot](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index10.png)
 
 ![pairPlotOS](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index11.png)
@@ -118,9 +130,7 @@ Now let's have a look at how the sentiment of the newsheadlines dataset looks li
 
 ![pairPlotOSFImp](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/index9.png)
 
-
-#### 4) Fitting the Models.	
-
+	
 ##### KNN
 
 ![cmknn](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/cmknnHy.png)
