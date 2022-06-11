@@ -181,7 +181,7 @@ The models to be employed
 
 #### Results of the models:
 	
-##### 1. KNN
+##### 1. K Nearest Neighour
 	
 
 ![cmknn](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/cmknnHy.png)
@@ -189,24 +189,24 @@ The models to be employed
 ![crknn](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/crknnHy.png)
 
 
-##### 2. DT
+##### 2. Decision Tree
 ![cmDT](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/cmDTHy.png)
 
 ![crDT](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/crDTHy.png)
 	
-##### 3. RF
+##### 3. Random Forest
 	
 ![cmRF](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/cmRFHy.png)
 	
 ![crRF](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/crRFHy.png)
 
-##### 4. XGB
+##### 4. XGBoost
 
 ![cmXGB](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/cmxgbHy.png)
 
 ![crXGB](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/crxgbHy.png)
 
-##### 5. NN
+##### 5. Neural Networks
 
 ![cmNN](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/nncm.png)
 
