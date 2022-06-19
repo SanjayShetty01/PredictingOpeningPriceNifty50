@@ -105,8 +105,7 @@ The data provided by the yfinace has no issues. Therefore we could safely assume
 
 #### Why are we using the S&P500 & Nikkie Index??
 The US markets usually decides the tempo for the rest of the financial markets around the globe, which was solidified by the high correlation between the S&P500 and the Nifty50. 
-And coming to the Nikkie 225, the Japanese market also influences the Indian market. (due to a presence of co-integration and co-movement) [TESTING FINANCIAL INTEGRATION BETWEEN STOCK MARKET OF
-INDIA AND JAPAN: AN EMPIRICAL STUDY](https://www.srcc.edu/system/files/TESTING.pdf)
+And coming to the Nikkie 225, the Japanese market also influences the Indian market. (due to a presence of co-integration and co-movement) [TESTING FINANCIAL INTEGRATION BETWEEN STOCK MARKET OF INDIA AND JAPAN: AN EMPIRICAL STUDY](https://www.srcc.edu/system/files/TESTING.pdf)
 
 - `USMove`: Stores the S&P500 closing price difference.
 
