@@ -209,7 +209,48 @@ The models to be employed
 
 ![cmNN](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/nncm.png)
 
-By comparing all the above models, we would pick the KNN model, Since there is no significant improvement in the more complex models. 
+Final results:
+	
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>KNN</th>
+      <th>DT</th>
+      <th>RF</th>
+      <th>XGB</th>
+      <th>NN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Accuracy</th>
+      <td>0.717</td>
+      <td>0.596</td>
+      <td>0.708</td>
+      <td>0.696</td>
+      <td>0.641</td>
+    </tr>
+    <tr>
+      <th>F1_Score</th>
+      <td>0.714</td>
+      <td>0.600</td>
+      <td>0.706</td>
+      <td>0.697</td>
+      <td>0.642</td>
+    </tr>
+    <tr>
+      <th>AUC_Score</th>
+      <td>0.788</td>
+      <td>0.679</td>
+      <td>0.855</td>
+      <td>0.838</td>
+      <td>0.807</td>
+    </tr>
+  </tbody>
+</table>
+	
+By comparing all the above models, we would pick the Random Forest model, Since there is no significant improvement in the more complex models. 
 
 [More on Modelling](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/PredictingOpeningPriceUsingNewsSentimentAndOtherIndex.ipynb)
 
