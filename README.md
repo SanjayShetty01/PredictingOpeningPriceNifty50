@@ -260,7 +260,20 @@ The code for deployment is [here](https://github.com/SanjayShetty01/PredictingOp
 	
 1. The vaderSentiment module is mainly used to compute and assign the sentiment score for the social media sites like Twitter. Even though a news headline would mimic a tweet, the context of some financial move would not be captured by the vaderSentiment analyser.
 
-<put the example code here>
+For eg.
+	
+```python
+analyzer.polarity_scores('HDFC delivers a bad quater')
+
+```
+{'compound': -0.5423, 'neg': 0.467, 'neu': 0.533, 'pos': 0.0}
+
+```python
+analyzer.polarity_scores('BoB delivers a bad quater')
+```
+{'compound': -0.5423, 'neg': 0.467, 'neu': 0.533, 'pos': 0.0}
+
+Even though the HDFC result would affect the movement of NIFTY more than BoB. The sentimental score would be the same.
 
 2. Using news sentimental value to predict the stock price would be considered to be a rookie mistake, especially if we would use options to trade with the predictions. We would be better off predicting the volatility instead of the price. This could also be considered an inherent issue with our model. 
 
