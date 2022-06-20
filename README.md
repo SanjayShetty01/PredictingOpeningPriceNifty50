@@ -209,7 +209,7 @@ The models to be employed
 
 ![cmNN](https://github.com/SanjayShetty01/PredictingOpeningPriceNifty50/blob/main/imgs/nncm.png)
 
-Final results:
+##### Final results:
 	
 <table border="1" class="dataframe">
   <thead>
