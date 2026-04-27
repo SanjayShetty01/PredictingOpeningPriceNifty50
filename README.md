@@ -266,13 +266,14 @@ How can we come about doing the same?
 I’ll be choosing the cloud service (AWS) over the other choices because I would like to familiarize myself with Cloud Computing. 	
 	
 ### How are we going to deploy the same in AWS?
-Since the current application (model) needs to run at just a specific time of the day. Hence we could use AWS Lambda (write about AWS Lambda stuff).
+AWS was chosen to build familiarity with cloud infrastructure and for reliability, a local machine or GitHub Actions runner going offline would break the schedule.
  
-But AWS lambda has some cons with respect to our project: 
+**Why AWS Lambda?**
+The model runs once per day at a fixed time; Lambda is the natural fit for event-driven, scheduled execution with no idle cost.
+ 
+**The packaging challenge:**
+Lambda requires all dependencies to be bundled. Our dependencies (scikit-learn, pandas, numpy, vaderSentiment) exceed 600 MB, well above Lambda's 250 MB limit for ZIP files and layers.
 
-1. Lambda function requires an additional package (Other than the default packages provided by python 3.9).
-
-2. The lambda function needs internet connectivity.	
 	
 
 ##### How can we solve the package issue?
